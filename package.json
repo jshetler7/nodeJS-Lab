@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-lab",
+  "version": "1.0.0",
+  "description": "a lab using Node",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "reddit": "node reddit.js",
+    "pop": "node popular-downloader.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jared Shetler",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
